@@ -1,0 +1,131 @@
+html
+{
+	margin:0;
+	padding: 0;
+	font-size: 16px;
+}
+article
+{
+	padding: 100px;
+}
+h1
+{
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(76, 71, 71, 1);
+}
+h2
+{
+	color: white;
+	font-family: helvetica;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(76, 71, 71, 1);
+}
+
+#contacto
+{
+	background: url(../img/buzos.jpg) 50% 0 no-repeat fixed;
+	text-align: center;
+}
+#cursVia
+{
+	background: rgba(255,255,255,0.70);
+	border-radius: .5em;
+	margin: .2em;
+	padding: .5em;
+	text-align: center;
+}
+#datos
+{
+	background: rgba(148,255,239,0.46);
+	border-radius: .5em;
+	margin: auto;
+	padding: 15px;
+	text-align: right;
+	width: 50%;
+}
+	#datos button
+	{	
+		background: blue;
+		border-radius: .4em;
+		color: white;
+		padding: 12px;
+	}
+#home
+{
+	background: url(../img/buzoRoatan.jpg) 50% 0 no-repeat fixed;
+	text-align: center;
+}
+#index
+{
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 41%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(41%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 41%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 41%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 41%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 41%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+	border-radius: .5em;
+	margin: 1em;
+	padding: .5em;
+}
+#impor
+{
+	background: url(../img/buzoSombra.jpg) 50% 0 no-repeat fixed;
+	text-align: center;
+}
+#impor, h2
+{
+	color: white;
+}
+#izq
+{
+	display: inline-block;
+	margin: 100px,0,0,0;
+	vertical-align: top;
+}
+#section2
+{
+	background: url(../img/coral.jpg) 50% 0 no-repeat fixed;
+}
+
+#snsi
+{
+	text-align: center;
+}
+#home , #section2, #contacto, #impor
+{
+	background-size: cover;
+	margin: 0px auto;
+	max-width: 1920px;
+	min-height: 900px;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#section2, #section3
+{
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+
+#dere
+{
+	display: inline-block;
+	margin: 100px,0,0,0;
+	vertical-align: top;
+}
+.logo 
+{
+	text-align: center;
+	width: 100%;
+	
+	/*background: url(../logos/logo_oorca.png) 50% 0 no-repeat fixed;
+	display: block;
+	height: 480px;
+	margin: 0px auto;
+	padding: 0px;
+	width: 1920px;*/
+}

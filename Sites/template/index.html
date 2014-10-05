@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="curso">
 <head>
 	<meta charset="UTF-8">
 	<meta description="Sitio dedidaco a al buceo. Todo lo que buscas del buceo lo encontraras aqui...">
@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="../static/css/estilos.css">
 	<title>.:Escuela de Buceo:.</title>
 	<script type="text/javascript" src="../static/js/modernizr2.8.3.js"></script>
+	<script type="text/javascript" src="../static/js/app.js"></script>
 	<script type="text/javascript" src="../static/js/estilos.js"></script>
 	<script type="text/javascript" src="../static/js/jquery.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/plugins/CSSPlugin.min.js"></script>
@@ -50,6 +51,21 @@
 			<h2>¿Sabes la importancia de tomar un curso de buceo?</h2>
 			<h4>DESCUBRELO HOY MISMO EH INICIA TU AVENTURA</h4>
 		</article>
+		<section ng-controller="CursoController as ccCtrl" id="cursos">
+			<div class="owd">
+				<h2>{{ccCtrl.curso.nombre}}#003</h2>
+				<h2>Inicia tu aventura</h2>
+				<h3>Open Water Diver</h3>
+				<img src="../static/img/credencial_OWD.jpg" alt="Credencial Open Water Diver">
+				<ul>
+					<li>Conviertete en un buzo certificado.</li>
+					<li>Bucea en cualquier parte del mundo.</li>
+					<li>No requeriras ningun otro curso.</li>
+					<li>No necesitaras renovar tu credencial</li>
+					<li>¡¡¡Diversión grantizada!!!</li>
+				</ul>
+			</div>
+		</section>
 	</section>
 	<section id="snsi" data-type="parallax_section" data-speed="10">
 		<article>

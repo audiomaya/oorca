@@ -1,0 +1,19 @@
+{
+  "name": "oorca-polymer",
+  "version": "0.0.1",
+  "description": "Aplicacion creada para satisfacer las necesidades de los entusiastas del buceo",
+  "authors": [
+    "Cesar <imoximagen@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.2.3"
+  }
+}

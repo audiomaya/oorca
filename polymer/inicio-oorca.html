@@ -1,0 +1,22 @@
+<link rel="import" href="../polymer/bower_components/polymer.html">
+
+<dom-module id = "inicio-oorca">
+  <template>
+    <p>
+      Hola, <strong> {{who}}</strong>
+    </p>
+  </template>
+
+</dom-module>
+
+<script charset="utf-8">
+  Polymer({
+    is: 'inicio-oorca',
+    properties: {
+      who: {
+        type: String,
+        value: 'Platzi'
+      }
+    }
+  });
+</script>
